@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
-my_name = u'Олег Букатчук'
-my_age = 33 # Это правда!
-my_height = 183 # см
-my_weight = 83 # кг
-my_eyes = u'Карие'
-my_teeth = u'Белые'
-my_hair = u'Чёрные'
+name = u'Олег Букатчук'
+age = 33 # Это правда!
+height = 183 # см
+weight = 83 # кг
+eyes = u'Карие'
+teeth = u'Белые'
+hair = u'Чёрные'
 
-print u"Давайте поговорим о человеке по имени %s." % my_name
-print u"Его рост составляет %d см." % my_height
-print u"Он весит %d кг." % my_weight
+print u"Давайте поговорим о человеке по имени %s." % name
+print u"Его рост составляет %d см." % height
+print u"Он весит %d кг." % weight
 print u"На самом деле это не так много."
-print u"У него %s глаза и %s волосы." % (my_eyes, my_hair)
+print u"У него %s глаза и %s волосы." % (eyes, hair)
 
 # Эта строка кода довольно сложна
-print u"Если я сложу %d, %d и %d, то получу %d." % (my_age, my_height, my_weight, my_age + my_height + my_weight)
+print u"Если я сложу %d, %d и %d, то получу %d." % (age, height, weight, age + height + weight)
